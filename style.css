@@ -6,64 +6,14 @@
     background-color: #1f2937;
     color: white;
     padding: 20px;
-}
-
-.header-logo{
     display: flex;
-    
-    flex-direction: row;   
+    justify-content: space-between;
+}
+p{
+    display: flex;
     justify-content: flex-start;
-    padding-left: 20px;
-    color: #f9faf8;
-    font-size: 24px; 
-    
-
 }
-ul{
+.links{
     display: flex;
-  
-    flex-direction: row;
     justify-content: flex-end;
-    align-items: flex-end;
-    list-style: none;
-    gap: 5px;
-    font-size: 18px;
-    color: #e5e7eb;
-   
-}
-.container{
-    display: flex;
-    flex-direction: column;
-    width: 40%;
-    padding: 20px;
-    
-    
-}h1{
-    color: #f9faf8;
-    font-weight: bold;
-    font-size: 48px;
-}
-.subtext{
-    font-size: 18px;
-    color: #e5e7eb;
-}
-button {
-    background-color: #3882F6;
-    color: white;
-    font-weight: bold;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    cursor: pointer;
-    width: 20%;
-    opacity: 0.9;
-}
-
-.form{
-    height: 200px;
-    width: 400px;
-    background-color: grey;
-    display: flex;
-  
-    
 }
