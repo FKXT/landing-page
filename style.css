@@ -1,9 +1,16 @@
 * {
     margin: 0;
     padding: 0;
+   
     
 }
+html{
+    height: 100%;
+}
+body {
+    height: 100%;
 
+}
 #showcase {
     background-color: #1f2937;
     color: white;
@@ -12,11 +19,13 @@
     justify-content: space-between;
     
 }
-p{
+.bigger-title{
     display: flex;
     justify-content: flex-start;
     color: #f9faf8;
     font-size: 24px; 
+    font-weight: bold;
+   
     
     
 }
@@ -57,6 +66,11 @@ p{
     padding-bottom: 20px;
     
 }
+.container-left, .button{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
 
 .container-right{
     display: flex;
@@ -75,6 +89,7 @@ button {
     cursor: pointer;
     width: 20%;
     opacity: 0.9;
+    
   
 }
 
@@ -90,4 +105,88 @@ form{
 }
 .container-left, .container-right{
    margin: 20px;
+}
+.section-b{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin: 50px;
+  
+}
+.random-info{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight:900;
+    text-align: center;
+
+}
+.boxes{
+    display:flex;
+    gap: 10px;
+    margin: 50px;
+    flex-direction: row;
+    justify-content: space-between;
+  
+
+}
+.box1{
+    background: white;
+    border-width: 5px;
+    border-style:solid;
+    border-color: #3882F6;
+    width: 150px;
+    height: 150px;
+    
+    
+}
+.box2{
+    background: white;
+    border-width: 5px;
+    border-style:solid;
+    border-color:  #3882F6;
+    width: 150px;
+    height: 150px;
+}
+.box3{
+    background: white;
+    border-width: 5px;
+    border-style:solid;
+    border-color:  #3882F6;
+    width: 150px;
+    height: 150px;
+}
+.box4{
+    background: white;
+    border-width: 5px;
+    border-style:solid;
+    border-color:  #3882F6;
+    width: 150px;
+    height: 150px;
+}
+
+
+
+
+.undertext{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+   
+   
+}
+.p1{
+margin-left: 30px;
+   
+
+} 
+.p4{
+    margin-right: 30px;
+}
+.section-c{
+    background-color: grey;
+    height: max-content;
+    width: max-content;
 }
